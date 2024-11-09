@@ -6,21 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Nastya Tulaeva is a product designer and a little bird.</h1>
-    <h3>Currently I work as a UX designer in Coherent Solutions. <br> Here I'm learning basics of web development.</h3>
-    <br>
-    <img src="/Users/nasta/Projects/nsttlv/images/portrait.jpg" alt="Girl with a cat" width="500"> 
-    <br>
-    <a href=log.html>What's going on</a>
-    <br>
-    <h2>Projects</h2>
-    <div class="card">
-        <img src="/Users/nasta/Projects/nsttlv/images/sample image.jpg" alt="Card Image" class="card-img">
-        <div class="card-content">
-            <caption>Web Application</caption>
-            <h3 class="card-title">This is a Manually written card</h3>
-            <p class="card-text">This is a simple description of the card. It gives more information about the content of the card.</p>
-            <a href="#" class="card-btn">Learn More</a>
+    <div class="grid-container">
+        <div class="grid-item" style="grid-column: span 2;">
+            <h1>Nastya Tulaeva is a product designer and a little bird.</h1>
+            <h3>Currently I work as a UX designer in Coherent Solutions. Here I'm learning basics of web development.</h3>
+            <img src="/Users/nasta/Projects/nsttlv/images/portrait.jpg" alt="Girl with a cat" width=100%> 
         </div>
+        <div class="grid-item">
+            <h2>Title 2</h2>
+            <p>Description for the second content. This content takes up one column.</p>
+            <img src="https://via.placeholder.com/150" alt="Image 2">
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <h2>Projects</h2>
+        </div>
+        <div class="grid-item">5
+            <a href=log.html>What's going on</a>
+        </div>
+    </div>
 </body>
 </html>
